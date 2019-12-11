@@ -1,4 +1,6 @@
 # sweep2d
+[![GoDoc](https://godoc.org/github.com/openrm/sweep2d?status.svg)](https://godoc.org/github.com/openrm/sweep2d)
+
 A basic implementation of two-dimensional sweep line algorithm
 
 ## Dependencies
