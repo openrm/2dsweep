@@ -1,4 +1,4 @@
-module github.com/openrm/2dsweep
+module github.com/openrm/sweep2d
 
 go 1.12
 
