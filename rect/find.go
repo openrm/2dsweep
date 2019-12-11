@@ -17,7 +17,7 @@ func FindIntersections(rs []image.Rectangle) [][]int {
 
     rects := make([]Rect, len(rs))
     for i, r := range rs {
-        rects[i] = newRect(r, uint64(i))
+        rects[i] = NewRect(r, uint64(i))
     }
 
     minIndices, maxIndices := sortedIndices(rs)
