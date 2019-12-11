@@ -1,3 +1,4 @@
+// Package rect provides algorithms regarding rectangles in a discrete 2D space.
 package rect
 
 import (
@@ -5,13 +6,14 @@ import (
     tree "github.com/Workiva/go-datastructures/augmentedtree"
 )
 
-/* augumentedtree.Interval implementation */
+// An implementation of augumentedtree.Interval.
 type Rect struct {
     image.Rectangle
     id uint64
 }
 
-func newRect(rect image.Rectangle, id uint64) Rect {
+// Creates a new Rect given a rectangle and an identifier.
+func NewRect(rect image.Rectangle, id uint64) Rect {
     return Rect{rect, id}
 }
 

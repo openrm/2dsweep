@@ -6,6 +6,8 @@ import (
     tree "github.com/Workiva/go-datastructures/augmentedtree"
 )
 
+// Given a set of rectangles it finds all intersections among those.
+// Found intersections are returned as pairs of indices.
 func FindIntersections(rs []image.Rectangle) [][]int {
     if len(rs) == 0 {
         return [][]int{}
