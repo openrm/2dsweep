@@ -1,4 +1,4 @@
-# 2dsweep
+# sweep2d
 A basic implementation of two-dimensional sweep line algorithm
 
 ## Dependencies
